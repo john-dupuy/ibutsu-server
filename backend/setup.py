@@ -10,7 +10,7 @@ REQUIRES = [
     # Pin Kombu to 4.6.3 to get around celery/kombu/issues/236
     "kombu==4.6.3",
     "connexion",
-    "dynaconf",
+    "dynaconf<3",
     "flask_cors",
     "func-timeout",
     "gunicorn",
